@@ -3,7 +3,7 @@ const app = express()
 const port = 8080
 
 app.get('/', (req, res) => {
-  res.send('Hello World! 松山webhookテスト 0625')
+  res.send('Hello World! 松山webhookテストです。')
 })
 
 app.listen(port, () => {
